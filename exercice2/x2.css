@@ -1,0 +1,54 @@
+p a {
+    padding-left: 20%;
+    top:40%;
+     
+}
+div.enonce img.encadre{
+    left:20%;
+}
+.abbr[hajar]{
+    background-color: black;
+}
+ 
+.img1{
+    width:300;
+}
+.img2{
+    width:400;
+}
+.img3{
+    width:600;
+}
+.img4{
+    width:300;
+}
+img[width="300"]{
+    width:400;
+    padding: 10%;
+}
+article.remarque time[time]{
+  background-color: black;
+}
+div.exemple > p {
+    font-size: 40;
+    background-color: blueviolet;
+}
+div > img:first-child{
+    width:100%
+}
+p#important img.encadré{
+    width:40%;
+}
+div > .img:first-child{
+    width:40%
+}
+*:nth-child(odd) > img {
+    left:40%;
+}
+article.exercice > p:first-of-type a[href$=".jpg"] {
+    left:40;
+}
+div.reponse + div.remarque {
+     font-size: x-large;
+}
+
