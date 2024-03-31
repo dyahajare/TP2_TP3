@@ -1,8 +1,9 @@
 .tout{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
-    margin-left: 20%;
+    background-color: #345cd0;
+ 
 }
 .ecri{
      
@@ -11,6 +12,7 @@
      width: 450px;;
      flex-direction: column;
      height:100%;
+     background-color:white;
      
 }
 .c1{
@@ -18,7 +20,7 @@
     font-family :Verdana, Geneva, Tahoma, sans-serif ;
     display: flex;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 0%;
     margin-top: 10%;
     color:  rgb(112, 111, 111);
 }
@@ -72,7 +74,7 @@ input{
     margin-top: 10%;
     display: flex;
     justify-content: center;
-    background-color: rgb(34, 117, 241);
+    background-color:  #345cd0;
      color: #E9EFFD;
      margin-bottom: 0%;
      border-radius: 17px;
@@ -80,7 +82,7 @@ input{
  
 
  .hr{
-    width: 400px;
+    width: 300px;
     margin-top: 0%;
     color: rgb(199, 206, 207);
  }
@@ -96,6 +98,14 @@ input{
     margin-top: 0%;
     padding-top: 0%;
     margin-left: 35%;
-    font-size: 95%;
+    font-size: 85%;
     color: rgb(79, 118, 224);
+ }
+ .w4{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-left: 35%;
+    font-size: 95%;
+    color: rgb(49, 50, 54);
  }
